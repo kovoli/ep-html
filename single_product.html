@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Icon Font CSS -->
-    <link rel="stylesheet" href="css/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="css/plugins.css">
@@ -35,7 +35,7 @@
 <div class="header-section section">
 
     <!-- Header Top Start -->
-    <div class="header-bottom header-bottom-one header-sticky">
+    <div class="header-bottom header-bottom-one">
         <div class="container">
             <div class="row align-items-center justify-content-between">
 
@@ -44,7 +44,6 @@
                     <div class="header-logo">
                         <a href="index.html">
                             <img src="images/logo.png" alt="E&E - Electronics eCommerce Bootstrap4 HTML Template">
-                            <img class="theme-dark" src="assets/images/logo-light.png" alt="E&E - Electronics eCommerce Bootstrap4 HTML Template">
                         </a>
                     </div><!-- Logo End -->
                 </div>
@@ -56,7 +55,7 @@
                             <ul>
                                 <li class="active"><a href="index.html">Главная</a>
                                 </li>
-                                <li class="menu-item-has-children"><a href="shop-grid.html">Категории</a>
+                                <li><a href="shop-grid.html">Категории <i class="fas fa-angle-down"></i></a>
                                     <ul class="sub-menu">
                                         <li class="menu-item-has-children"><a href="shop-grid.html">shop grid</a>
                                             <ul class="sub-menu">
@@ -66,21 +65,21 @@
                                                 <li><a href="shop-grid-extended.html">shop grid Extended</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="shop-list.html">shop List</a>
+                                        <li><a href="shop-list.html">shop List</a>
                                             <ul class="sub-menu">
                                                 <li><a href="shop-list.html">shop List</a></li>
                                                 <li><a href="shop-list-left-sidebar.html">shop List Left Sidebar</a></li>
                                                 <li><a href="shop-list-right-sidebar.html">shop List Right Sidebar</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="category-1.html">shop Category</a>
+                                        <li><a href="category-1.html">shop Category</a>
                                             <ul class="sub-menu">
                                                 <li><a href="category-1.html">Shop Category 1</a></li>
                                                 <li><a href="category-2.html">Shop Category 2</a></li>
                                                 <li><a href="category-3.html">Shop Category 3</a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="single-product.html">Single Product</a>
+                                        <li><a href="single-product.html">Single Product</a>
                                             <ul class="sub-menu">
                                                 <li><a href="single-product.html">Single Product 1</a></li>
                                                 <li><a href="single-product-2.html">Single Product 2</a></li>
@@ -156,14 +155,14 @@
         <div class="container">
             <div class="row">
 
-                <div class="col d-flex justify-content-center mt-10 mb-10">
+                <div class="col-lg-12 d-flex justify-content-center mt-10 mb-10">
                     <!-- Header Advance Search Start -->
                     <div class="header-advance-search">
 
                         <form action="#">
                             <div class="input"><input type="text" placeholder="Search your product"></div>
 
-                            <div class="submit"><button><i class="icofont icofont-search-alt-1"></i></button></div>
+                            <div class="submit"><button><i class="fas fa-search"></i></button></div>
                         </form>
 
                     </div><!-- Header Advance Search End -->
@@ -209,7 +208,7 @@
 
                     <!-- Category & Title -->
                     <div class="head-content">
-                        <h1 class="title">Flex 3310</h1>
+                        <h1 class="title">Первый продукт Travola</h1>
                     </div>
 
                     <div class="category-title">
@@ -236,16 +235,13 @@
                     <div class="tab-pane fade show active" id="product-description">
 
                         <div class="row">
-                            <div class="single-product-description-content col-lg-8 col-12">
+                            <div class="single-product-description-content col-lg-12 col-12">
                                 <h4>Introducing Flex 3310</h4>
                                 <p>enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia res eos qui ratione voluptatem sequi Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora in</p>
                                 <h4>Stylish Design</h4>
                                 <p>enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia res eos qui ratione voluptatem sequi Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli</p>
                                 <h4>Digital Camera, FM Radio & many more...</h4>
                                 <p>enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia res eos qui ratione voluptatem sequi Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci veli</p>
-                            </div>
-                            <div class="single-product-description-image col-lg-4 col-12">
-                                <img src="assets/images/single-product/description.png" alt="description">
                             </div>
                         </div>
 
@@ -427,7 +423,7 @@
 ============================================ -->
 
 <!-- jQuery JS -->
-<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
 <!-- Popper JS -->
 <script src="js/popper.min.js"></script>
 <!-- Bootstrap JS -->

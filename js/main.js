@@ -582,9 +582,9 @@ counter.counterUp({
 -----------------------------------*/
 $.scrollUp({
     easingType: 'linear',
-    scrollSpeed: 900,
+    scrollSpeed: 400,
     animation: 'fade',
-    scrollText: '<i class="icofont icofont-swoosh-up"></i>',
+    scrollText: '<i class="fas fa-arrow-up"></i>',
 });
     
 /*--

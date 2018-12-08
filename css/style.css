@@ -3332,7 +3332,7 @@ img.mfp-img {
 
 /*-- Header Top Border --*/
 .header-top-border {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #d0d0d0;
   background-color: #fefcef }
 
 /*-- Header Links --*/
@@ -13020,6 +13020,9 @@ ul.link-widget li {
         text-decoration: underline; }
 
 
+.header-bottom.header-bottom-one {
+  background-color: #f4d544;
+}
 .btn-yellow {
   background-color: #f5d72f;
 }

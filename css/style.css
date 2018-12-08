@@ -13018,3 +13018,19 @@ ul.link-widget li {
       color: #f5d730; }
       .theme-dark .footer-copyright p a:hover {
         text-decoration: underline; }
+
+
+.btn-yellow {
+  background-color: #f5d72f;
+}
+.price-wrap {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #000000;
+}
+.old-price {
+    font-size: 1.4rem;
+    color: #fd0000;
+    font-weight: 500;
+    text-decoration: line-through;
+}
